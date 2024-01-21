@@ -36,7 +36,7 @@ app.post("/",function(req , res){
 
   const options ={
     method: "POST",
-    auth:"kamrul:542e6cc2ae23891d0da305a420a37148-us17"
+    auth:"kamrul:"+process.env.KEY 
 
   }
 
